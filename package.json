@@ -1,0 +1,33 @@
+{
+  "name": "react-imvc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-imvc start --config imvc.config.ts",
+    "build": "react-imvc build --config imvc.config.ts",
+    "test": "react-imvc test --config imvc.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqma113/react-imvc-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tqma113/react-imvc-example/issues"
+  },
+  "homepage": "https://github.com/tqma113/react-imvc-example#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-imvc": "3.0.0-beta.17"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
