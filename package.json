@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "react-imvc start --config imvc.config.ts",
+    "start:debug": "react-imvc start?inspect-brk --config ./imvc.config.ts",
     "build": "react-imvc build --config imvc.config.ts",
     "test": "react-imvc test --config imvc.config.ts"
   },
@@ -22,7 +23,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-imvc": "3.0.0-beta.21"
+    "react-imvc": "^3.0.0-beta.24"
   },
   "devDependencies": {
     "@types/react": "^16.9.13",
