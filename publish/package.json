@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-imvc": "^3.0.0-beta.28"
+    "react-imvc": "^3.0.0-beta.29"
   },
   "devDependencies": {
     "@types/react": "^16.9.13",
