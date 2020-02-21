@@ -4,10 +4,10 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "react-imvc start --config imvc.config.ts",
-    "start:debug": "react-imvc start?inspect-brk --config ./imvc.config.ts",
-    "build": "react-imvc build --config imvc.config.ts",
-    "test": "react-imvc test --config imvc.config.ts"
+    "start": "react-imvc start --config imvc.config.js",
+    "start:debug": "react-imvc start?inspect-brk --config ./imvc.config.js",
+    "build": "react-imvc build --config imvc.config.js",
+    "test": "react-imvc test --config imvc.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-imvc": "^3.0.0-beta.37"
+    "react-imvc": "^3.0.0-beta.41"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
