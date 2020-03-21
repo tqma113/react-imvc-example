@@ -18,3 +18,10 @@ export const DECREASE: Action<State> = (state) => {
     count: state.count - 1
   }
 }
+
+export const UPDATE_STATE: Action<State, Partial<State>> = (state, partialSTate) => {
+  return {
+    ...state,
+    ...partialSTate
+  }
+}
