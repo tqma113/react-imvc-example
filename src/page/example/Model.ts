@@ -1,5 +1,5 @@
 import { Action } from 'react-imvc'
-import { State } from './type'
+import type { State } from './type'
 
 export const initialState = {
   count: 0

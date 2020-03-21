@@ -3,7 +3,7 @@ import * as Model from './Model'
 
 export type Actions = Omit<typeof Model, 'initialState'>
 
-export { default as Ctrl } from './Controller'
+export type { default as Ctrl } from './Controller'
 
 export type State = BaseState & {
   count: number
