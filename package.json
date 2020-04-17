@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-imvc": "^3.0.0-beta.43"
+    "react-imvc": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
