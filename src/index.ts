@@ -3,14 +3,14 @@
 export default [
   {
     path: '/',
-    controller: () => import('./page/example/Controller')
+    controller: () => import(/* webpackChunkName: "example" */ './page/example/Controller')
   },
   {
     path: '/js',
-    controller: () => import('./page/javascript/Controller')
+    controller: () => import(/* webpackChunkName: "javascript" */ './page/javascript/Controller')
   },
   {
     path: '/test',
-    controller: () => import('./page/test/Controller')
+    controller: () => import(/* webpackChunkName: "test" */ './page/test/Controller')
   }
 ]

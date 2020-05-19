@@ -1,6 +1,6 @@
 import React from 'react'
 import { useModel } from 'react-imvc/hook'
-import { State, Actions } from './type';
+import type { State, Actions } from './type';
 
 export default function View() {
   const [state, actions] = useModel<State, Actions>()

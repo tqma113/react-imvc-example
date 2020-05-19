@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
 
@@ -15,22 +15,22 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 var _default = [{
   path: '/',
   controller: function controller() {
-    return Promise.resolve().then(function () {
-      return _interopRequireWildcard(require('./page/example/Controller'));
+    return Promise.resolve('./page/example/Controller').then(function (s) {
+      return _interopRequireWildcard(require(s));
     });
   }
 }, {
   path: '/js',
   controller: function controller() {
-    return Promise.resolve().then(function () {
-      return _interopRequireWildcard(require('./page/javascript/Controller'));
+    return Promise.resolve('./page/javascript/Controller').then(function (s) {
+      return _interopRequireWildcard(require(s));
     });
   }
 }, {
   path: '/test',
   controller: function controller() {
-    return Promise.resolve().then(function () {
-      return _interopRequireWildcard(require('./page/test/Controller'));
+    return Promise.resolve('./page/test/Controller').then(function (s) {
+      return _interopRequireWildcard(require(s));
     });
   }
 }];

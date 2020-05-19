@@ -1,4 +1,5 @@
 {
+  "extends": "react-imvc/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "sourceMap": false,
