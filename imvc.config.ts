@@ -7,4 +7,5 @@ export default {
 	port: PORT, // server 端口号
 	routes: 'routes', // 服务端路由目录
 	layout: 'Layout',
+	hot: true
 }

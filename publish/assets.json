@@ -1,7 +1,8 @@
 {
-  "vendor": "js/vendor-687d1a.js",
-  "index": "js/index-38c546.js",
-  "js/2-a680a0": "js/2-a680a0.js",
-  "js/3-5d0b71": "js/3-5d0b71.js",
-  "js/4-7f94b1": "js/4-7f94b1.js"
+  "vendor": "js/vendor-109d5a.js",
+  "example": "js/example-449b93.js",
+  "index": "js/index-3e16a9.js",
+  "javascript": "js/javascript-99af95.js",
+  "test": "js/test-cc4ec3.js",
+  "js/vendor-109d5a.js.LICENSE.txt": "js/vendor-109d5a.js.LICENSE.txt"
 }

@@ -2,12 +2,12 @@
   "name": "react-imvc-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "react-imvc start --config imvc.config.ts",
-    "start:debug": "react-imvc start?inspect-brk --config ./imvc.config.ts",
-    "build": "react-imvc build --config imvc.config.ts",
-    "test": "react-imvc test --config imvc.config.ts"
+    "start": "react-imvc start --config imvc.config.js",
+    "start:debug": "react-imvc start?inspect-brk --config ./imvc.config.js",
+    "build": "react-imvc build --config imvc.config.js",
+    "test": "react-imvc test --config imvc.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,10 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-imvc": "^3.0.0-beta.30"
+    "react-imvc": "^3.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "@types/react": "^16.9.13",
     "@types/react-dom": "^16.9.4",
     "eslint": "^6.7.1",
@@ -34,7 +35,9 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
     "ts-node": "^8.5.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.8.3"
   }
 }

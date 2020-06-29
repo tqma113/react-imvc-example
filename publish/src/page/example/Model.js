@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.DECREASE = exports.INCREASE = exports.initialState = void 0;
+exports.UPDATE_STATE = exports.DECREASE = exports.INCREASE = exports.initialState = void 0;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -31,3 +31,9 @@ var DECREASE = function DECREASE(state) {
 };
 
 exports.DECREASE = DECREASE;
+
+var UPDATE_STATE = function UPDATE_STATE(state, partialSTate) {
+  return _objectSpread({}, state, {}, partialSTate);
+};
+
+exports.UPDATE_STATE = UPDATE_STATE;
